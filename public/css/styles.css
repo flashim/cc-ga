@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    margin: 10px 0 5px;
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.game-auth,
+.game-auth-nxtpage {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.game-auth-nxtpage .top-header h4 {
+    width: 75%;
+    float: left;
+}
+
+.top-header {
+    background: #ccc;
+    padding: 7px 20px;
+    background: rgb(240, 249, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(240, 249, 255, 1) 0%, rgba(216, 240, 255, 1) 48%, rgba(204, 236, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(240, 249, 255, 1) 0%, rgba(216, 240, 255, 1) 48%, rgba(204, 236, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(240, 249, 255, 1) 0%, rgba(216, 240, 255, 1) 48%, rgba(204, 236, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f9ff', endColorstr='#ccecff', GradientType=0);
+    /* IE6-9 */
+}
+
+.top-header h3 {
+    margin: 0;
+}
+
+.middlecontent {
+    padding: 5px 20px 20px;
+}
+
+.middlecontent-nxtpage {
+    padding: 5px 20px 20px;
+    width: 70%;
+    height: auto;
+}
+
+.copypastearea {
+    border: 1px solid #ccc;
+    padding: 5px 5px;
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    height: auto;
+    overflow-x: hidden;
+    min-height: 200px;
+}
+
+.copypastearea label {
+    padding: 0 10px;
+}
+
+.game-title input,
+.game-des input {
+    width: 100%;
+    max-width: 500px;
+    height: 30px;
+}
+
+.questionblock h5 {
+    text-align: right;
+    margin: 0;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.hide {
+    display: none;
+}
+
+.copypastearea textarea {
+    border-color: #000;
+    height: auto;
+    font-size: 13px;
+    resize: none;
+    width: 100%;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.num-stepper {
+    color: black;
+}
+
+.num-stepper ol {
+    margin: 0;
+    font-size: 13px;
+    display: inline-table;
+}
+
+.footer,
+.footer-nxtpage {
+    background: #ccc;
+    padding: 3px 20px;
+    background: rgb(204, 236, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(204, 236, 255, 1) 0%, rgba(216, 240, 255, 1) 48%, rgba(216, 240, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(204, 236, 255, 1) 0%, rgba(216, 240, 255, 1) 48%, rgba(216, 240, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(204, 236, 255, 1) 0%, rgba(216, 240, 255, 1) 48%, rgba(216, 240, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccecff', endColorstr='#d8f0ff', GradientType=0);
+    /* IE6-9 */
+    text-align: right;
+}
+
+.btn,
+.disabled {
+    width: auto;
+    padding: 5px 10px;
+    text-align: center;
+    background: rgb(59, 191, 255);
+    font-size: 12px;
+    margin: 10px 0 5px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+}
+
+.disabled {
+    background: #979797 !important;
+    cursor: not-allowed !important;
+}
+
+.questionblock {
+    width: 100%;
+    max-width: 720px;
+}
+
+.game-des textarea {
+    width: 70%;
+    overflow-y: scroll;
+}
+
+.middlecontent-nxtpage .game-des {
+    margin: 52px 0 0;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+
+
+.middlecontent-nxtpage .questionblock h5 {
+    text-align: left;
+}
+
+.middlecontent-nxtpage .questionblock {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.questionblock h5 input[type=radio] {
+    vertical-align: bottom;
+}
+
+.answer-option {
+    display: grid;
+}
+
+.answer-option ul {
+    width: 50%;
+    float: left;
+    padding: 0;
+    list-style: none;
+}
+
+.answer-option ul li {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.answer-option ul li input[type=text] {
+    max-width: 250px;
+    height: 25px;
+    box-shadow: 0px 0px 0px #f1f1f1 inset;
+    width: 100%;
+}
+
+.answer-option ul li input[type=radio] {
+    margin-top: 9px !important;
+}
+
+.section {
+    display: -webkit-box;
+}
+
+.left-question-panel {
+    width: 22%;
+    overflow: hidden;
+    display: block;
+    border-right: 1px solid #ccc;
+    height: 100%;
+    min-height: 400px;
+    margin: 14px 0 20px;
+}
+
+.left-question-panel p {
+    padding: 0px 20px;
+    margin: 4px 0;
+    font-size: 13px;
+}
+
+.footer-nxtpage {
+    display: flex;
+}
+
+.nav-btn {
+    width: 50%;
+    text-align: left;
+}
+
+.rightsidebtn {
+    float: right;
+    width: 50%;
+}
+
+.popup-window {
+    position: absolute;
+    background: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.popup-box-orange {
+    width: 300px;
+    height: auto;
+    background: #de9612;
+    padding: 15px 0 0;
+    margin: 10em auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.popup-box-green {
+    width: 300px;
+    height: auto;
+    background: #6ab033;
+    padding: 15px 0 0;
+    margin: 10em auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.popup-box-green .bottom-btn {
+    background: #94c74f;
+}
+
+.popup-box-orange h5,
+.popup-box-green h5 {
+    padding: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.bottom-btn {
+    border-top: 1px solid #fff;
+    padding: 6px 0 0;
+    background: #ffe894;
+    border-radius: 0 0 5px 5px;
+}
+
+.bottom-btn input[type=button] {
+    padding: 7px 15px;
+    text-align: center;
+    background: rgb(59, 191, 255);
+    font-size: 14px;
+    margin: 3px 5px 5px;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: none;
+}
+
+.requiredfields {
+    color: red;
+    font-size: 10px;
+    width: 20%;
+    float: left;
+    padding-top: 15px;
+    text-align: right;
+}
+
+.optionalfields {
+    color: #545454;
+    font-size: 10px;
+    width: 100%;
+    padding-top: 15px;
+    text-align: right;
+}
+
+.game-auth .game-title h4,
+.game-auth .game-des h4,
+.game-auth .questionblock h4 {
+    width: 50%;
+    display: inline;
+    float: left;
+}
+
+.bottom-btn button.okbtn,
+.bottom-btn button.cancelbtn {
+    padding: 7px 15px;
+    text-align: center;
+    background: rgb(59, 191, 255);
+    font-size: 14px;
+    margin: 3px 5px 5px;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
